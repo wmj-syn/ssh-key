@@ -14,7 +14,7 @@ The two ssh key pairs can be stored in ~/.ssh/gitlab_staff and ~/.ssh/gitlab_stu
 
 Copy the corresponding public ssh key to the corresonping Gitlab account. (Avatar-Settigns-ssh keys)
 
-## Setup hte config file
+## Setup the config file
 
 To identify which ssh key is related to the which account, setup the config file as follows:
 
