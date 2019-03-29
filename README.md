@@ -42,3 +42,12 @@ Connect to the host
 ```
 ssh -T git@Host (gitlab_staff, gitlab_student)
 ```
+
+## A better way to simplyfy the procedure
+Using the method above needs to tell ssh explicitly which account to use (to specify the location of the key) everytime using the ssh. Another way could be creating a symbolic link to the gitlab_staff account by default, and change the link when necessary.
+
+```
+cd ~/.ssh
+ln -s gitlab_staff/id_rsa
+```
+
